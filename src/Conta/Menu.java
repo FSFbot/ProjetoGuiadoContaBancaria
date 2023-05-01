@@ -1,6 +1,6 @@
-package conta;
+package Conta;
 
-import Conta.controller.ContaController;
+import Conta.controller.contaController;
 import Conta.model.ContaCorrente;
 import Conta.model.ContaPoupanca;
 import Conta.util.Cores;
@@ -20,7 +20,7 @@ public class Menu {
         float saldo, limite, valor;
 
         // Instância da Classe ContaController
-        ContaController contas = new ContaController();
+        contaController contas = new contaController();
 
         System.out.println("\nCriar Contas\n");
 
